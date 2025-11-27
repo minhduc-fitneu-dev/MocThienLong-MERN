@@ -1,0 +1,126 @@
+body {
+  font-family: "Montserrat", serif;
+  background: #f1f1f1;
+}
+
+.MuiBadge-badge {
+  background: #eb8600 !important;
+}
+::-webkit-scrollbar {
+  width: 10px !important;
+  height: 10px !important;
+}
+::-webkit-scrollbar-thumb {
+  background: #ccc !important;
+}
+
+.ReactCollapse--collapse {
+  transition: height 500ms;
+}
+.btn {
+  padding: 8px 20px !important;
+}
+.btn svg {
+  font-size: 22px !important;
+}
+.btn-sm {
+  padding: 6px 20px !important;
+  font-size: 13px !important;
+}
+
+.btn-lg {
+  padding: 8px 20px !important;
+  font-size: 16px !important;
+}
+
+.btn-blue {
+  background: #3872fa !important;
+  color: #fff !important;
+  padding: 8px 20px !important;
+}
+.btn-blue:hover {
+  background: #084be7 !important;
+}
+th.MuiTableCell-root {
+  @apply bg-[#f1f1f1] py-2;
+}
+
+a.active button {
+  background: #e8e8e8 !important;
+}
+
+.MuiButton-icon svg {
+  font-size: 27px !important;
+}
+.css-rizt0-MuiTypography-root {
+  font-size: 14px !important;
+}
+.MuiAppBar-colorPrimary {
+  background: #e6e6e6 !important;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+.MuiDialog-paper {
+  background: #f9fafb !important;
+}
+/* Otp */
+.otpBox input {
+  border: 1px solid rgba(0, 0, 0, 0.3) !important;
+  outline: none !important;
+  border-radius: 4px;
+}
+
+.otpBox input:focus {
+  border: 1px solid rgba(0, 0, 0, 0.7) !important;
+}
+
+.otpPage .container {
+  height: 90vh;
+  display: flex;
+}
+.MuiTableBody-root tr:nth-child(even) {
+  @apply bg-gray-50;
+}
+
+button .MuiCircularProgress-root {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease forwards;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slideDown {
+  animation: slideDown 0.35s ease forwards;
+}
+.filterInput {
+  @apply border px-3 py-2 rounded-lg bg-white shadow-sm;
+}

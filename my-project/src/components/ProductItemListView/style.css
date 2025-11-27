@@ -1,0 +1,43 @@
+/* ACTION BTN */
+.actionBtn {
+  width: 36px !important;
+  height: 36px !important;
+  min-width: 36px !important;
+  border-radius: 50% !important;
+  background: #fff !important;
+  border: 1px solid #e6d8c8 !important;
+  transition: 0.3s !important;
+}
+
+.actionBtn:hover {
+  background: #c2783c !important;
+}
+
+.actionBtn .icon {
+  color: #4a3628;
+}
+
+.actionBtn:hover .icon {
+  color: white;
+}
+
+/* LIST VIEW ITEM */
+.listViewItem {
+  border-radius: 14px;
+  background: #fff5eb;
+}
+
+/* ADD TO CART BUTTON */
+.btnWood {
+  background: #c2783c !important;
+  color: white !important;
+  padding: 10px 20px !important;
+  border-radius: 10px !important;
+  font-weight: 600 !important;
+  transition: 0.3s !important;
+}
+
+.btnWood:hover {
+  background: #a5602f !important;
+  transform: translateY(-2px);
+}

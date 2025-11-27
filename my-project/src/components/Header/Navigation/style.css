@@ -1,0 +1,54 @@
+.categoryPanel button {
+  text-transform: capitalize !important;
+}
+
+/* Ẩn submenu mặc định */
+.nav li .submenu {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transition: opacity 0.25s ease, visibility 0.25s ease, top 0.25s ease;
+  z-index: 999;
+}
+
+/* HIỆN submenu khi hover đúng vào LI (không phải hover vùng trống) */
+.nav li.has-submenu:hover > .submenu {
+  opacity: 1 !important;
+  visibility: visible !important;
+  top: 100% !important;
+}
+
+/* Style button con */
+.nav li:hover .submenu button {
+  font-weight: 400 !important;
+}
+
+.nav li .submenu li:hover button {
+  color: #eb8600 !important;
+}
+
+/* MENU CẤP 2 */
+.nav li .submenu li .submenu {
+  top: 0 !important;
+  left: 100% !important;
+  opacity: 0 !important;
+  visibility: hidden;
+  transition: opacity 0.25s ease, visibility 0.25s ease;
+}
+
+/* Hiện menu cấp 2 khi hover đúng li cấp 1 */
+.nav li .submenu li:hover > .submenu {
+  opacity: 1 !important;
+  visibility: visible !important;
+  left: 100% !important;
+}
+
+.nav li .submenu li .submenu button {
+  color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.nav li .submenu li .submenu button:hover {
+  color: #eb8600 !important;
+}
