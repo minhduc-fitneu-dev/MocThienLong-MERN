@@ -1,7 +1,7 @@
 
 ---
 
-# ⭐ **README.md – VERSION NGẮN GỌN & CHUYÊN NGHIỆP**
+# **README.md**
 
 ```md
 # 🌳 Mộc Thiên Long – E-commerce Website (MERN Stack)
