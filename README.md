@@ -1,109 +1,99 @@
+# 🌳 Mộc Thiên Long -- E-commerce Website (MERN Stack)
 
----
+A fullstack e-commerce website built with the **MERN stack** (MongoDB,
+ExpressJS, ReactJS, NodeJS).\
+The system includes a customer UI, admin dashboard, authentication,
+image upload, and product management.
 
-# **README.md**
-
-```md
-# 🌳 Mộc Thiên Long – E-commerce Website (MERN Stack)
-
-A fullstack e-commerce website built with the **MERN stack** (MongoDB, ExpressJS, ReactJS, NodeJS).  
-The project includes a modern client UI, admin dashboard, product management, authentication, and Cloudinary image upload.
-
----
+------------------------------------------------------------------------
 
 ## 🚀 Tech Stack
 
 ### **Frontend (client)**
-- ReactJS (Vite)
-- Material UI
-- React Router DOM
-- Context API
-- Axios
+
+-   ReactJS (Vite)
+-   Material UI
+-   React Router DOM
+-   Axios
 
 ### **Backend (server)**
-- NodeJS + ExpressJS
-- MongoDB Atlas + Mongoose
-- JWT Authentication
-- Multer + Cloudinary
-- OTP Email Verification
+
+-   NodeJS + ExpressJS
+-   MongoDB Atlas + Mongoose
+-   JWT Authentication
+-   Multer + Cloudinary
+-   OTP Email Verification
 
 ### **Admin Panel**
-- ReactJS (Vite)
-- Material UI
-- Protected Routes
-- CRUD Dashboard
 
----
+-   ReactJS (Vite)
+-   Material UI
+-   Protected Routes
+-   CRUD Dashboard
+
+------------------------------------------------------------------------
 
 ## ✨ Main Features
 
 ### 👤 User
-- Login / Register with OTP  
-- JWT Authentication  
-- Browse multi-level categories  
-- Search, filter, sort  
-- Cart, wishlist, checkout  
-- Order history  
 
-### 🛠️ Admin
-- Role-based admin login  
-- Manage products  
-- Upload images (Cloudinary)  
-- Manage categories  
-- Manage orders  
+-   Login / Register (OTP verification)
+-   JWT Authentication
+-   Browse categories
+-   Search, filter, sort
+-   Cart, wishlist, checkout
+-   Order history
 
----
+### 🛠 Admin
+
+-   Role-based admin login
+-   Manage products
+-   Upload images (Cloudinary)
+-   Manage categories
+-   Manage orders
+
+------------------------------------------------------------------------
 
 ## 📂 Project Structure
 
-```
+    MocThienLong-MERN/
+    │
+    ├── client/        # User frontend (ReactJS)
+    ├── admin/         # Admin dashboard (ReactJS)
+    ├── server/        # Backend API (NodeJS)
+    └── README.md
 
-MocThienLong-MERN/
-│
-├── client/        # User frontend (ReactJS)
-├── admin/         # Admin dashboard (ReactJS)
-├── server/        # Backend API (NodeJS)
-└── README.md
-
-```
-
----
+------------------------------------------------------------------------
 
 ## ▶️ Run Project
 
 ### Client
-```
 
+``` bash
 cd client
 npm install
 npm run dev
-
 ```
 
 ### Admin
-```
 
+``` bash
 cd admin
 npm install
 npm run dev
-
 ```
 
 ### Server
-```
 
+``` bash
 cd server
 npm install
 npm run dev
-
 ```
 
----
+------------------------------------------------------------------------
 
 ## 📌 Author
-**Vũ Minh Đức**  
-Fullstack Developer – NEU  
-GitHub: https://github.com/minhduc-fitneu-dev
-```
 
----
+**Vũ Minh Đức**\
+GitHub: https://github.com/minhduc-fitneu-dev
